@@ -35,18 +35,22 @@
  // Write a function that takes in the following
  //  array and use a while loop to iterate and break
  //   when the item is equal to the fourth index // let arrNum = [1,2,3,4,5,6,7,8,9];
-// function number4(arr21){
-//     let i=0;
-//     while(i<arr21.length){
-//          if(i===4){
-//              break;
-//         }
-//          i++;
-//      }
-//     return i;
-//  }
-//  let arrNum = [1,2,3,4,5,6,7,8,9];
-//  console.log(number4(arrNum));
+ let arrNum = [1,2,3,4,5,6,7,8,9];
+ let i=0;
+ function number4(arraynum){
+    
+    while(i<arraynum.length){
+        console.log({"arraynum" :arraynum[i]})
+         if(i===4){
+             break;
+        }
+         i++;
+     }
+     
+  }
+  number4(arrNum)
+  
+ 
 
 
     
@@ -60,7 +64,7 @@
     if(i===2){  
         continue;
      }
-     console.log(arr4[i]);
+     console.log({"arr4" :arr4[i]});
       }
  }
        let fruits= ['apple','plum','banana','strawberries','kiwi'];
